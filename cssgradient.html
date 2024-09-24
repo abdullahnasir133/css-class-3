@@ -1,0 +1,43 @@
+<html></html>
+<head>
+    <title>Gradient background</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+        #box2{
+            width: 800px;
+            height: 300px;
+            padding: 30px;
+            border: 3px solid black;
+            background: radial-gradient(red,yellow,green);
+        }
+        #box{
+            width: 800px;
+            height: 300px;
+            padding: 25px;
+            border: 3px solid black;
+            background: repeating-radial-gradient(red,yellow,green 20%,blue 30%,purple 40%);
+            /* background:repeating-linear-gradient(red ,yellow 20%,green 10%);
+           
+             background:linear-gradient(45deg, red,green,yellow,blue,indigo);
+            */
+        }
+        p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gradient Background</h1>
+    <div id="box">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed dignissim arcu. Sed id tristique tellus. Ut porttitor eu ex non euismod. Nullam sit amet nulla non ligula semper vulputate eget vitae orci. Nam egestas pulvinar varius. Etiam condimentum tincidunt metus, non iaculis augue feugiat quis. Etiam iaculis vitae velit sed condimentum. Nunc ultrices porttitor turpis nec porttitor.
+
+    </div>
+    <div id="box2">
+        <h2>Radial gradiant</h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed dignissim arcu. Sed id tristique tellus. Ut porttitor eu ex non euismod. Nullam sit amet nulla non ligula semper vulputate eget vitae orci. Nam egestas pulvinar varius. Etiam condimentum tincidunt metus, non iaculis augue feugiat quis. Etiam iaculis vitae velit sed condimentum. Nunc ultrices porttitor turpis nec porttitor.
+
+    </div>
+</body>
+</html>

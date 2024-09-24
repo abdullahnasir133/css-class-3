@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>CSS mix-blend-mode</title>
+        <style>
+            body{
+                font-family: arial;
+            }
+            #box{
+                width: 440px;
+                height: 440px;
+                border: 2px solid black;
+               background-image: linear-gradient(to right , red,yellow);
+                background-size: cover;
+               
+             
+            }
+            img{
+                mix-blend-mode: darken;
+            }
+           
+            
+            h2{
+                background: rebeccapurple;
+                text-align: center;
+                font-size: 50px;
+                margin-top: 150px ;
+               mix-blend-mode: screen;
+    
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>CSS mix-blend-mode</h1>
+        <div id="box">
+           <img src="image/Falco_peregrinus_tethered.jpg"/>
+            <h2>mix-blend-mode</h2>
+        </div>
+    </body>
+</html>
